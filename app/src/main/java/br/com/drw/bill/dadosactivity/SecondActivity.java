@@ -23,4 +23,9 @@ public class SecondActivity extends AppCompatActivity {
             txtRecebido.setText("Nada Carregado !!!!!!");
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }
